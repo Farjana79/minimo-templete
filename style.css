@@ -1,0 +1,317 @@
+/* font family start */
+
+@font-face {
+    font-family: PlayfairDisplay-Black;
+    src: url(../minimo/font/play/PlayfairDisplay-Black.otf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../minimo/font/play/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Italic;
+    src: url(../minimo/font/play/PlayfairDisplay-Italic.otf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(../minimo/font/play/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+    font-family: Ubuntu-L;
+    src: url(../minimo/font/ubuntu/Ubuntu-L.ttf);
+}
+/* font family end*/
+
+/* common css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    color: #626262;
+    background: #fff;
+   
+    
+}
+
+h1,h2,p,a{
+    margin: 0;
+}
+/* common css */
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header start */
+
+header{
+    background: #fff;
+    padding: 20px 0;
+  
+}
+
+ .container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+/* logo */
+
+.logo{
+    width: 12%;
+    float: left;
+}
+.logo img{
+    margin-top: 13px;
+    width: 100%;
+}
+
+/* menu */
+
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    margin: 0 60px;
+    float: left;
+    text-transform: uppercase;
+}
+.menu ul li:nth-child(4){
+    margin-right: 0;
+}
+.menu ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #626262;
+    display: block;
+    transition: .4s;
+  
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+/* header end */
+
+
+
+.banner_sec{
+   
+}
+.banner_img{}
+.banner_img img{
+    width: 100%;
+}
+/* getaway start */
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.getaway_sec{
+    margin: 100px 0;
+   
+
+}
+
+
+.meta_data{
+    font-family: Ubuntu-L;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.heading{
+    font-size: 35px;
+    color: #626262;
+    font-weight: 300;
+}
+
+.p_text {
+    font-size: 19px;
+	line-height: 28px;
+	
+}
+.h_mtb{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.p_mb{
+    margin-bottom: 40px;
+}
+/* getaway end*/
+
+
+/* blog start */
+.blog_sec{
+   
+}
+
+
+
+
+.blog_start{
+    width: 46%;
+    float: left;
+    margin-bottom: 100px;  
+}
+
+.blog_start:nth-child(even){
+    margin-left: 8%;   
+}
+
+
+
+.blog_content{}
+
+.blog_content p {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0;
+}
+.blog_content h2 {
+
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.b_img{
+  margin-bottom: 25px;
+}
+.b_img img{
+    width: 100%;
+} 
+/* blog end */
+
+
+.newsletter{
+    padding: 100px 0;
+    background: #f0f0f0;
+ 
+}
+.news{
+    text-align: center;
+}
+.news h1 {
+    margin: 0;
+    margin-bottom: 70px;
+	color: #333333;
+	
+   
+}
+.container3{
+    margin: 0 auto;
+    width: 60%;
+    color: #333333;
+  
+}
+.frmm {
+    margin: 0 auto;
+	width: 400px;
+    position: relative;
+}
+.frmm input {
+	font-size: 14px;
+    color: #626262;
+	border: 0;
+    width: 365px;
+	height: 45px;
+	background: transparent;
+	border-bottom: 1px solid #333333;
+	padding-left: 5px;
+	padding-right: 15px;
+   
+}
+.frmm input:focus{
+    outline: 0;
+}
+.frmm button {
+	position: absolute;
+	border: none;
+	top: 8px;
+	right: 0;
+}
+.frmm button img{
+  
+}
+.frmm button:focus{
+    outline: 0;
+}
+
+/* load start */
+.load_sec{
+    padding: 100px 0;
+}
+
+.btn{
+    text-align: center;
+}
+.bttn {
+    font-size: 25px;
+	color: #626262;
+    transition: .4s;
+	width: 160px;
+	height: 60px;
+	border: none;
+	background: transparent;
+	border: 1px solid #606060;
+	
+}
+.bttn:hover{
+    background: #626262;
+    color: #fff;
+}
+/* load start */
+
+
+/* footer start */
+footer{
+    background-color: #f0f0f0; 
+    overflow: hidden;
+    padding: 20px 0;
+    
+}
+.ft_c{
+    color: #000;
+	width: 25%;
+	float: left;
+}
+.ft_c ul{
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+
+}
+.ft_c ul li {
+    margin-right: 25px;
+	font-size: 18px;
+	float: left;
+
+}
+.ft_c ul li:last-child{
+    margin-right: 0;
+}
+.ft_c.left {
+	width: 20%;
+	float: right;
+}
+.ft_c.left  ul{
+    float: right;
+}
+
+
+/* footer end */
+https://forms.gle/9y4bqvF3zxfwTYRV9
